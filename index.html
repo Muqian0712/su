@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>飛鴿傳蔬</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS Files -->
+  <link href="assets/css/variables.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: ZenBlog
+  * Template URL: https://bootstrapmade.com/zenblog-bootstrap-blog-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https:///bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="img/logo.png" alt="" class="logo_img">
+        <h1>飛鴿傳蔬</h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">首頁</a></li>
+          <li class="dropdown"><a href="search-result.html"><span>食譜</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="search-result.html">總覽</a></li>
+              <li><a href="Chinese food.html">中餐</a></li>
+              <li><a href="Western food.html">西餐</a></li>
+              <li><a href="Japanese cuisine.html">日式</a></li>
+              <li><a href="Korean cuisine.html">韓式</a></li>
+              <li><a href="Italian style.html">義式</a></li>
+            </ul>
+          </li>
+    
+          <li><a href="about.html">關於</a></li>
+          <li><a href="contact.html">小小樹洞</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <div class="position-relative">
+        <a href="#" class="mx-2"><span class="bi-facebook"></span></a>
+        <a href="#" class="mx-2"><span class="bi-twitter"></span></a>
+        <a href="#" class="mx-2"><span class="bi-instagram"></span></a>
+
+        <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+        <!-- ======= Search Form ======= -->
+        <div class="search-form-wrap js-search-form-wrap">
+          <form action="search-result.html" class="search-form">
+            <span class="icon bi-search"></span>
+            <input type="text" placeholder="Search" class="form-control">
+            <button class="btn js-search-close"><span class="bi-x"></span></button>
+          </form>
+        </div><!-- End Search Form -->
+
+      </div>
+
+    </div>
+
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Hero Slider Section ======= -->
+    <section id="hero-slider" class="hero-slider">
+      <div class="container-md" data-aos="fade-in">
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper sliderFeaturedPosts">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="search-result.html" class="img-bg d-flex align-items-end" style="background-image: url('img/original_h.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>意想不到的美食都在這裡</h2>
+                      <p>手把手教你從廚房小白晉升大主廚，滿足一切日常所需</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="about.html" class="img-bg d-flex align-items-end" style="background-image: url('img/index-about.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>關於我們</h2>
+                      <p>想跟您介紹介紹我們~</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="contact.html" class="img-bg d-flex align-items-end" style="background-image: url('img/connection_h.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>小小樹洞</h2>
+                      <p>這裡可以提出任何與素食相關的問題，我們將會回復你</p>
+                    </div>
+                  </a>
+                </div>            
+              </div>
+              <div class="custom-swiper-button-next">
+                <span class="bi-chevron-right"></span>
+              </div>
+              <div class="custom-swiper-button-prev">
+                <span class="bi-chevron-left"></span>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Hero Slider Section -->
+
+    <!-- ======= Post Grid Section ======= -->
+    <section id="posts" class="posts">
+      <div class="container" data-aos="fade-up">
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a><img src="img/original.png" alt="" class="img-fluid"></a>
+              <div class="post-meta"><span class="date">Culture</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+              <h2>完全素食</h2>
+              <p class="mb-4 d-block">全素（又稱純素）是指完全不食用任何動物性食品，包括肉類、魚類、乳製品、蛋類及蜂蜜，並在日常生活中盡量避免使用動物製品，如皮革、羊毛和絲綢等。全素主義者通常基於道德、健康或環保等理由選擇這種生活方式。道德方面，全素主義者認為應該尊重動物權利，避免動物受苦；健康方面，研究表明，全素飲食富含纖維、維生素和抗氧化劑，有助於降低心血管疾病、糖尿病和某些癌症的風險；環保方面，畜牧業對環境的影響巨大，包括溫室氣體排放、森林砍伐和水資源消耗等。全素飲食強調攝取多樣化的植物性食品，如蔬菜、水果、豆類、堅果和穀物，以確保營養均衡。隨著全素主義的普及，市場上也出現了各種全素食品和替代品，為追求健康和環保的消費者提供更多選擇。</p>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <img src="img/egg.jpg" alt="" class="img-fluid">
+                  <div class="post-meta"><span class="date">蛋素</span> <span class="mx-1">&bullet;</span> <span>ovo-vegetarian</span></div>
+                  <h2>蛋素是一種素食飲食方式，允許食用蛋類，但不包含其他動物性產品。</h2><p> </p>
+                </div>
+                <div class="post-entry-1">
+                  <img src="img/milk.jpg" alt="" class="img-fluid">
+                  <div class="post-meta"><span class="date">奶素</span> <span class="mx-1">&bullet;</span> <span>lacto-vegetarian</span></div>
+                  <h2>奶素是一種素食飲食方式，允許食用乳製品但不包含其他動物性產品。</h2><p> </p>
+                </div>
+                <div class="post-entry-1">
+                  <img src="img/egg-milk.jpg" alt="" class="img-fluid">
+                  <div class="post-meta"><span class="date">蛋奶素</span> <span class="mx-1">&bullet;</span> <span>lacto-ovo vegetarian</span></div>
+                  <h2>蛋奶素是一種素食飲食方式，允許食用蛋類和乳製品，但不包含其他動物性產品。</h2><p> </p>
+                </div>
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <img src="img/without 5 pungent spices.png" alt="" class="img-fluid">
+                  <div class="post-meta"><span class="date">五辛素</span> <span class="mx-1">&bullet;</span> <span>without 5 pungent spices</span></div>
+                  <h2>食用五辛（大蒜、洋蔥、韭菜、蒜苗和興渠）但不食用肉類的素食。</h2>
+                </div>
+                <div class="post-entry-1">
+                  <img src="img/Pescatarian.jpg" alt="" class="img-fluid">
+                  <div class="post-meta"><span class="date">海鮮素</span> <span class="mx-1">&bullet;</span> <span>Pescatarian</span></div>
+                  <h2>允許食用魚類和海鮮，但不包含其他肉類，通常也不限制乳製品和蛋類。</h2>
+                </div>
+                <div class="post-entry-1">
+                  <img src="img/Flexitarian.jpg" alt="" class="img-fluid">
+                  <div class="post-meta"><span class="date">鍋邊素</span> <span class="mx-1">&bullet;</span> <span>Flexitarian</span></div>
+                  <h2>避免直接食用肉類，但允許食用與肉類同鍋烹調過的蔬菜和食物。</h2>
+                </div>
+              </div>
+
+              <!-- Trending Section -->
+              <div class="col-lg-4">
+
+                <div class="trending">
+                  <h3>食譜排行榜</h3>
+                  <ul class="trending-post">
+
+                  <ul class="footer-links footer-blog-entry list-unstyled">
+                    <li>
+                      <a href="Chinese food.html" class="d-flex align-items-center">
+                        <div>
+                          <div class="post-meta d-block"><span class="date">中餐</span></div>
+                          <img src="img/rice.jpg" alt="" class="img-fluid me-3">
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="Japanese cuisine.html" class="d-flex align-items-center">
+                        <div>
+                        <div class="post-meta d-block"><span class="date">日式</span></div>
+                        <img src="img/sushi.webp" alt="" class="img-fluid me-3">
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="Korean cuisine.html" class="d-flex align-items-center">
+                        <div>
+                          <div class="post-meta d-block"><span class="date">韓式</span></div>
+                          <img src="img/Korean bibimbap.jpg" alt="" class="img-fluid me-3">
+                        </div>
+                      </a>
+                    </li>
+
+                    
+                    <li>
+                      <a href="Italian style.html" class="d-flex align-items-center">
+                        <div>
+                          <div class="post-meta d-block"><span class="date">義式</span></div>
+                          <img src="img/Creamy Asparagus Pasta.jpg" alt="" class="img-fluid me-3">
+                        </div>
+                      </a>
+                    </li>
+
+
+                  </ul>
+                </div>
+
+              </div> <!-- End Trending Section -->
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section> <!-- End Post Grid Section -->
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <h3 class="footer-heading">關於．飛鴿傳蔬</h3>
+            <p>這是一個逢甲學生架設的一個網站，為求更多人了解素食、享受素食</p>
+            <p><a href="about.html" class="footer-link-more">了解更多</a></p>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h3 class="footer-heading">便捷欄</h3>
+            <ul class="footer-links list-unstyled">
+              <li><a href="index.html"><i class="bi bi-chevron-right"></i> 首頁</a></li>
+              <li><a href="search-result.html"><i class="bi bi-chevron-right"></i> 食譜</a></li>
+              <li><a href="about.html"><i class="bi bi-chevron-right"></i> 關於我們</a></li>
+              <li><a href="contact.html"><i class="bi bi-chevron-right"></i> 小小樹洞</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h3 class="footer-heading">食譜分類</h3>
+            <ul class="footer-links list-unstyled">
+              <li><a href="search-result.html">總覽</a></li>
+              <li><a href="Chinese food.html">中餐</a></li>
+              <li><a href="Western food.html">西餐</a></li>
+              <li><a href="Japanese cuisine.html">日式</a></li>
+              <li><a href="Korean cuisine.html">韓式</a></li>
+              <li><a href="Italian style.html">義式</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <h3 class="footer-heading">熱門食譜</h3>
+
+            <ul class="footer-links footer-blog-entry list-unstyled">
+              <li>
+                <a href="Chinese food.html" class="d-flex align-items-center">
+                  <img src="img/rice.jpg" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">中餐</span></div>
+                    <span>醬油蛋炒飯</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="Western food.html" class="d-flex align-items-center">
+                  <img src="img/Western Vanilla Omelette.webp" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">西餐</span></div>
+                    <span>西式香草煎蛋餅</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="Japanese cuisine.html" class="d-flex align-items-center">
+                  <img src="img/sushi.webp" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">日式</span></div>
+                    <span>壽司</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="Korean cuisine.html" class="d-flex align-items-center">
+                  <img src="img/Korean bibimbap.jpg" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">韓式</span></div>
+                    <span>韓式拌飯</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="Italian style.html" class="d-flex align-items-center">
+                  <img src="img/Creamy Asparagus Pasta.jpg" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">義式</span></div>
+                    <span>奶油蘆筍義大利麵</span>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <div class="container">
+
+        <div class="row justify-content-between">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <div class="copyright">
+              © Copyright <strong><span>ZenBlog</span></strong>. All Rights Reserved
+            </div>
+
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+            <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
